@@ -33,6 +33,4 @@ newColourBtnElement.addEventListener('click', () => {
         randomHexString
     )
 
-    currentColourElement.textContent = randomHexString;
-
 });

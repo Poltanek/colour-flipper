@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f0f0f0;
+}   
+
+
+section#colour-display {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 100px auto;
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    padding: 4rem;
+    border-radius: .5rem;
+}
+
+section#colour-display h1 {
+    font-weight: 900;
+}
+
+section#colour-display #colour {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* button custom  */
+
+section#colour-display #new-colour-button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+section#colour-display #new-colour-button:hover {
+    background-color: darkgray;
+}
+
